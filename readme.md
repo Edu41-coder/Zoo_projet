@@ -9,6 +9,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 \- [Visual Studio Code](<https://code.visualstudio.com/>):
 
 Pour Visual Studio Code c'est important d'instaler les extensions PHP, du type:'PHP **v1.46.15409'** , et 'PHP bulit in Server' disponibles dans la rubrique «'Extensions » de VS Code.
+Il faut aussi instaler l'extension Composer.
 
 \- [XAMPP](https://www.apachefriends.org/index.html) (pour PHP et MySQL)
 
