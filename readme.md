@@ -87,17 +87,17 @@ Un exemple serait :
 
 Téléchargez le pilote mongo pour Windows depuis pecl.php.net. Téléchargez la dernière version stable en cliquant sur le lien DLL. Sur la page suivante, une liste de DLL s'affiche. Assurez-vous de choisir la bonne en fonction de :
 
-la version de PHP installée avec votre XAMPP,
+la version de PHP installée avec votre XAMPP,(vérifier avec phpinfo())
 
 l'architecture x86 ou x64,
 
 si la sécurité des threads est activée ou désactivée.
 
-Lorsque la sécurité des threads est activée, vous devez télécharger la version Thread Safe (TS).
+Lorsque la sécurité des threads est activée, vous devez télécharger la version Thread Safe (TS).(vérifier avec phpinfo())
 
 Décompressez la version téléchargée du pilote mongo et allez sur:(Si vous avez installé XAMPP sur le lecteur C, le chemin complet vers le dossier ext serait) : C:\xampp\php\ext.
 
-Enregistrez le fichier mongodb.dll dans php.ext..
+Enregistrez le fichier php_mongodb.dll dans php.ext..
 
 Ajoutez la ligne suivante dans le fichier php.ini(dans C:\xampp\php\php.ini) ouvrez-le avec un éditeur de texte de type bloc de notes :
 
